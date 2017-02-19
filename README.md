@@ -1,38 +1,39 @@
-Bulk Postmeta Editor
+File Time Monitor
 ====================
 
-This is a WordPress Plugin that allows you to bulk-edit post meta information (including custom post types) from a single place.
+This plugin allows you to monitor the "Last Modified Time" of up to 20 files, at a glance - right from the WordPress Dashboard.
 
-Description
+If you are running regular imports (through [WP All Import](https://wordpress.org/plugins/wp-all-import), [WordPress Importer](https://en-gb.wordpress.org/plugins/wordpress-importer/) or similar), this handy tool lets you check on how update your source files are; and is great for diagnosing `cron` timing mismatches.
+
+Installation
 ---------------------
 
-This easy-to-use plugin allows you to quickly and easily edit post meta values for almost any post type (including custom post types)
-
-Edit post meta as plain text, in textareas, as light-weight HTML or using the full WordPress WYSIWYG editor!
-
-From the first version, this has been designed for ease of use by site Contributors and Editors, but keeps settings reserved for Admin's only. This gives site Adaministrators control over what less-privileged users can bulk edit.
-
-Installation on WordPress
----------------------
-
-1. Upload `bulk-postmeta-edior` to the `/wp-content/plugins/` directory
+1. Upload `filetime-monitor` to the `/wp-content/plugins/` directory
 2. Activate the plugin through the 'Plugins' menu in WordPress
-3. Navigate to Bulk Edit => Settings to set up your first edit group
+3. Navigate to Settings => File Time Monitor to set which files to monitor
 
 Frequently Asked Questions
 ---------------------
 
-**Does this work on custom post types?**
+**Can this work on external files?**
 
-Yes! This will work on just about any post type, including custom post types you have defined, or custom post types from other plugins.
+If they are on the same physical / virtual server as your WordPress installation, yes.
 
-**Can I edit ACF post meta fields?**
+**Can I monitor files over HTTP / HTTPS?**
 
-Yes! We've tested with [Advanced Custom Fields (ACF)](https://www.wordpress.org/plugins/advanced-custom-fields/), and it works well.
+No. PHP is NOT able to access / ascertain what time a file has been modified over HTTP(S)
 
-**Can I use this in a commercial project**
+**Can I monitor more than 20 files?**
 
-Yes! We're professional website builders ourselves, so go for it. If you'd like to [send a credit our way](https://www.psdtofinal.com), you're welcome to; but it's not *required*.
+Not in this version of the plugin. We're working on an update that will allow virtually unlimited files though (stay tuned).
+
+**Can I use relative paths**
+
+Yes, but it's not as reliable. We recommend absolute paths.
+
+**How do I find an absolute path?**
+
+Typically you can work this out by logging in to your website's **Server Control Panel** (cPanel, Parallels, Odin, etc), and working through the file system, there.
 
 **I have an idea to improve this plugin**
 
