@@ -1,0 +1,41 @@
+#ftm-info {
+	width:100%;
+}
+#ftm-info tbody tr td {
+	padding:1em 1em 0 0 !important;
+	line-height:1.5em !important;
+	line-height: 15px !important;
+	vertical-align:middle !important;
+}
+#ftm-info tbody tr:first-child td {
+	padding-top:0 !important;
+}
+#ftm-info tbody tr td:last-child,
+#ftm_widget i {
+	color:#AAAAAA;
+	padding-right:0 !important;
+}
+#ftm_widget .light-grey {
+	color:#CCC;
+}
+#ftm_widget .dashicons-yes {
+	color: #FFF;
+    background: #7ad03a;
+    border-radius: 50%;
+    text-indent: -2px;
+    height: 17px;
+    width: 17px;
+    margin-left: 1px;
+    line-height: 17px;
+    font-size:15px;
+}
+#ftm_widget .dashicons-warning {
+	color: #ffba00;
+}
+#ftm_widget .dashicons-dismiss {
+	color: #a00;
+}
+.ftm-form input[type="text"] {
+	width:40em;
+	max-width:100%;
+}
