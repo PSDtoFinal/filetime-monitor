@@ -5,7 +5,7 @@ Requires at least: 4.0
 Tested up to: 4.7.2
 Stable tag: 4.3
 License: GPLv2 or later
-Version: 1.0.0
+Version: 1.0.1
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 Running regular imports? This plugin allows you to quickly see when your import / export or other important files were updated!
@@ -54,6 +54,9 @@ Awesome, please hit us up on [Twitter](https://twitter.com/psdtofinal), [Faceboo
 2. Settings screen, where you note which files are to be monitored
 
 == Changelog ==
+
+= 1.0.1 =
+* Updated WordPress plugin URI
 
 = 1.0 =
 * Initial build and release

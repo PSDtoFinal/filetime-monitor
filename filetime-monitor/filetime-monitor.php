@@ -1,9 +1,9 @@
 <?php
 /*
  * Plugin Name:       File Time Monitor
- * Plugin URI:        https://www.psdtofinal.com
+ * Plugin URI:        https://wordpress.org/plugins/file-time-monitor/
  * Description:       Running regular imports? This plugin allows you to quickly see when your import / export or other important files were updated!
- * Version:           1.0.0
+ * Version:           1.0.1
  * Author:            PSD to Final
  * Author URI:        https://www.psdtofinal.com
  * License:           GPL-2.0+

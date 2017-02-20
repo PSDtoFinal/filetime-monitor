@@ -42,6 +42,10 @@ Awesome, please hit us up on [Twitter](https://twitter.com/psdtofinal), [Faceboo
 Changelog
 ---------------------
 
+** 1.0.1 **
+
+* Updated WordPress URI
+
 **1.0**
 
 * Initial build and release
